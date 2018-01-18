@@ -18,12 +18,15 @@ body{
 	border-right: 10px solid brown;
 	background-color: black;
 	
-	top: 20px;
+	top: 25px;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
 }
 #profile{
 	position: relative;
 	left: 50%;
-	top:-85%;
+	top:-110%;
 	width: 80px;
 	height: 80px;
 	background: white;
@@ -108,8 +111,9 @@ body{
 	/* 在左侧加上分隔线 */
 }
 #menu li a:hover {
-background:#146C9C; /* 变换背景色 */
-color:#fff; /* 变换文字颜色 */
+ /* 变换背景色 */
+ font-size: larger;
+color:brown; /* 变换文字颜色 */
 }
 .classA {
 	background-color: #CCCCCC;
@@ -137,7 +141,13 @@ color:#fff; /* 变换文字颜色 */
 	border-radius: 50%;
 	border: 2px solid white;
 	}
+.img-sq {
+	width: 100%;
+	height: 100%;
 	
+	
+	}
+		
 .diary{
 	width: 100%;
 	height: 250px;
@@ -155,14 +165,40 @@ color:#fff; /* 变换文字颜色 */
 	background-color: darkred;
 	top:10%;
 	left: 10%;
+	
 }
 .content{
 	position: relative;
 	width: 50%;
-	height: 200px;
-	
-	background-color: white;
+	height: 200px;	
 	top:10%;
 	left: 20%;
+	border-bottom:1px solid white ;
 	
+}
+.content p{
+	color: white;
+	font: 15px 华文行楷, arial, sans-serif;
+	line-height: 22px;
+}
+.content h2{
+	color: white;
+	font: 20px 华文楷体, arial, sans-serif;
+}
+.button-more{
+	background-color: brown;
+	color: white;
+	border: none;
+	font-size: 12px;
+	padding: 2px;
+	float: right;
+	box-shadow: 1px 1px white;
+}
+#gap{
+	width: 100%;
+	height: 50px;
+	background: -webkit-linear-gradient(brown,black); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(brown,black); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(brown,black); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, brown, black); /* 标准的语法（必须放在最后） */
 }
